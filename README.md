@@ -71,6 +71,10 @@ This will create the following passwords:
 ```
 The passwords will be saved to the 1.txt file.
 
+example:
+![屏幕截图(833)](https://github.com/user-attachments/assets/5c4eda4f-d7bb-4284-811c-b0067e93acaf)
+
+
 ### Help
 For more information on how to use the script, run:
 ```bash
