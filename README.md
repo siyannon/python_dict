@@ -70,7 +70,6 @@ This will create the following passwords:
 44
 ```
 The passwords will be saved to the 1.txt file.
-
 example:
 ![屏幕截图(833)](https://github.com/user-attachments/assets/5c4eda4f-d7bb-4284-811c-b0067e93acaf)
 
