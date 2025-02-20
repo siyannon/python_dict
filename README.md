@@ -23,3 +23,57 @@ To use the script, you can run the following command in the terminal:
 python your_script.py -w "01234" -r 2 -o 1.txt
 ```
 
+### Arguments
+- -w / --words
+Required: The characters to use for password generation.
+Example: "01234" or "abcdefg".
+
+- -r / --repeat
+Required: The length of the generated password.
+Example: 2 for generating 2-character passwords.
+
+- -o / --output
+Required: The output file where the generated passwords will be saved.
+Example: 1.txt.
+
+### Example
+To generate a dictionary of all 2-character passwords using the characters "01234" and save it to 1.txt, run:
+```bash
+python your_script.py -w "01234" -r 2 -o 1.txt
+```
+This will create the following passwords:
+```
+00
+01
+02
+03
+04
+10
+11
+12
+13
+14
+20
+21
+22
+23
+24
+30
+31
+32
+33
+34
+40
+41
+42
+43
+44
+```
+The passwords will be saved to the 1.txt file.
+
+### Help
+For more information on how to use the script, run:
+```bash
+python your_script.py -h
+```
+This will display a description of the available arguments and their usage.
