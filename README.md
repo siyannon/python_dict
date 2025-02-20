@@ -21,5 +21,5 @@ To use the script, you can run the following command in the terminal:
 
 ```bash
 python your_script.py -w "01234" -r 2 -o 1.txt
-
+```
 
