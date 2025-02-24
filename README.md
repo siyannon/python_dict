@@ -39,7 +39,7 @@ Example: 1.txt.
 ### Example
 To generate a dictionary of all 2-character passwords using the characters "01234" and save it to 1.txt, run:
 ```bash
-python generate_passwords -w "01234" -r 2 -o 1.txt
+python generate_passwords.py -w "01234" -r 2 -o 1.txt
 ```
 This will create the following passwords:
 ```
@@ -77,7 +77,7 @@ The passwords will be saved to the 1.txt file.
 ### Help
 For more information on how to use the script, run:
 ```bash
-python generate_passwords -h
+python generate_passwords.py -h
 ```
 This will display a description of the available arguments and their usage.
 example:
